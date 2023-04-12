@@ -27,7 +27,7 @@ body {
 .container__login{
     background: rgba(0,0,0,0.5);
     height: 550px;
-    width: 500px;
+    max-width: 500px;
     border-radius: 20px;
     padding: 20px; 
 }
@@ -122,3 +122,46 @@ h1{
     cursor: pointer;
 }
 
+/* stilos modal */
+
+.container__modal{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+.modal{
+    background-color:#434b52;
+    height: 200px;
+    width: 500px;
+    border-radius: 20px;
+    padding: 30px;
+}
+.aviso{
+    color: #f5f5f5;
+    font-size: 30px;
+    font-family: sans-serif;
+}
+h2{
+    color: #f5f5f5;
+    font-size: 20px;
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.modal__button{
+    background-color: #ec5853;
+    color: #f5f5f5;
+    border-color: transparent;
+    border-radius: 10px;
+    height: 50px;
+    width: 100%;
+    font-family: sans-serif;
+    font-size: 25px;
+}
+.modal__button:hover{
+    cursor: pointer;
+    background-color:#df4d49;
+}
