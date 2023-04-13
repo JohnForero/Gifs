@@ -1,12 +1,67 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <meta name="description" content="Buscar Gifs">
+    <link rel="preload" href="styles_buscador.css" as="styles">
+    <link rel="preload" href="script_buscador.js" as="script">
+    <link rel="stylesheet" href="styles_buscador.css">
+    <title>Buscador</title>
 </head>
+<header class="container__header">
+    <div class="icon__text">
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-brand-gitlab" width="60" height="60"
+            viewBox="0 0 24 24" stroke-width="1.5" stroke="#3e6e84" fill="none" stroke-linecap="round"
+            stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+            <path d="M21 14l-9 7l-9 -7l3 -11l3 7h6l3 -7z" />
+        </svg>
+        <h1>Gifs Store</h1>
+    </div>
+    <button class="logon" onclick="regresarLogin()">Log on</button>
+
+</header>
+
 <body>
-    
+    <div class="buscador">
+        <input type="text" placeholder="  Nombre del Gif" class="input" >
+
+        <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-search lupa" width="32" height="32" viewBox="0 0 24 24" stroke-width="3" stroke="#009988" fill="none" stroke-linecap="round" stroke-linejoin="round">
+            <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+            <circle cx="10" cy="10" r="7" />
+            <line x1="21" y1="21" x2="15" y2="15" />
+          </svg>
+    </div>
+    <div class="container__gifs">
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+        <div class="card__gif">
+            <img src="https://c4.wallpaperflare.com/wallpaper/741/384/889/iron-man-iron-man-2-toy-wallpaper-preview.jpg" alt="">
+        </div>
+    </div>
+    <script src="script_buscador.js"></script>
 </body>
+
 </html>
