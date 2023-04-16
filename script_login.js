@@ -10,6 +10,7 @@ let imprimir = () => {
     
  if (nombreUsuario.value == user && contraseña.value == password) {
      window.location.href='buscador.html';
+     sessionStorage.setItem('register','registrado');
  } else {
    login.style.display = 'none';
    modal.style.display = 'flex';
